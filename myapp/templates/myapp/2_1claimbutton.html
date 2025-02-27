@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{error}}
+<form method="post">
+    <input placeholder="type your 6-letter file key" type= "number" name="keybutton">
+
+    <button  type="submit" class="fileorderbutton">
+
+
+        "submit your key and claim your file"
+    </button>
+    {% csrf_token %}
+</form>
+
+</body>
+</html>
+
+<style>
+    .fileorderbutton{
+        width: 70% ;
+        height: 30% ;
+        background: #ffffff;
+
+
+    }
+</style>
