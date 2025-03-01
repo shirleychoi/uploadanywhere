@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-l*4ki3razkbzh)$v-g4eec$8l_vnqt4sb%-8of8md%*yr*tq6q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost","uploadanywhere.kro.kr"]
-
+ALLOWED_HOSTS = ["127.0.0.1", "localhost","uploadanywhere.kro.kr" ]
+CSRF_TRUSTED_ORIGINS = ["https://uploadanywhere.kro.kr"]
 
 # Application definition
 
